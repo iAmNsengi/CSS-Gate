@@ -1242,6 +1242,11 @@ video {
   padding-right: 7rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1342,6 +1347,14 @@ video {
   padding-bottom: 4rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1398,6 +1411,18 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
 }
 
 .font-black {
@@ -1493,6 +1518,30 @@ video {
 .text-\[\#111\] {
   --tw-text-opacity: 1;
   color: rgb(17 17 17 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[3\] {
+  color: 3;
+}
+
+.text-\[3r\] {
+  color: 3r;
+}
+
+.text-\[3re\] {
+  color: 3re;
+}
+
+.text-\[rem\] {
+  color: rem;
+}
+
+.text-\[2\.rem\] {
+  color: 2.rem;
 }
 
 .underline {
