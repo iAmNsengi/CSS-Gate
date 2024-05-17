@@ -1079,6 +1079,10 @@ video {
   background-color: -40;
 }
 
+.bg-\[-\%\] {
+  background-color: -%;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1113,6 +1117,22 @@ video {
 
 .bg-\[-50\%\] {
   background-position: -50%;
+}
+
+.bg-\[-5\%\] {
+  background-position: -5%;
+}
+
+.bg-\[-6\%\] {
+  background-position: -6%;
+}
+
+.bg-\[-60\%\] {
+  background-position: -60%;
+}
+
+.bg-\[-55\%\] {
+  background-position: -55%;
 }
 
 .bg-no-repeat {
@@ -1512,8 +1532,62 @@ video {
   text-decoration-line: underline;
 }
 
+@media (min-width: 1280px) {
+  .xl\:bg-\[\] {
+    background-color: ;
+  }
+
+  .xl\:bg-\[-\] {
+    background-color: -;
+  }
+
+  .xl\:bg-\[-8\] {
+    background-color: -8;
+  }
+
+  .xl\:bg-\[-80\] {
+    background-color: -80;
+  }
+
+  .xl\:bg-\[-80\%\] {
+    background-position: -80%;
+  }
+
+  .xl\:bg-\[-0\%\] {
+    background-position: -0%;
+  }
+
+  .xl\:bg-\[-10\%\] {
+    background-position: -10%;
+  }
+
+  .xl\:bg-\[-100\%\] {
+    background-position: -100%;
+  }
+
+  .xl\:bg-\[-120\%\] {
+    background-position: -120%;
+  }
+
+  .xl\:bg-\[-150\%\] {
+    background-position: -150%;
+  }
+
+  .xl\:bg-\[-15\%\] {
+    background-position: -15%;
+  }
+
+  .xl\:bg-\[-155\%\] {
+    background-position: -155%;
+  }
+}
+
 @media (min-width: 1536px) {
   .\32xl\:right-\[-8\%\] {
     right: -8%;
+  }
+
+  .\32xl\:bg-\[-55\%\] {
+    background-position: -55%;
   }
 }
