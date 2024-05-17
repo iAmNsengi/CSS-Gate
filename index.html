@@ -17,7 +17,7 @@
         <header>
             <nav >
                 <!-- black top navbar -->
-                <div class="flex justify-between bg-primary items-center text-white px-36 font-bold">
+                <div class="hidden md:flex justify-between bg-primary items-center text-white px-36 font-bold">
                     <div class="w-screen">
                         <ul class="flex gap-4 items-center text-xs">
                             <li class="flex items-center">
@@ -46,12 +46,16 @@
                     </div>
                 </div>
                 <!-- down navbar -->
-                <div class="flex justify-between items-center px-36 bg-secondary py-8">
-                    <div >
-                        <img src="./public/images/7646b389-6326-4ac3-9b1c-08276edc401b.svg" alt="logo_mage...." class="w-full">
+                <div class="flex justify-between items-center px-10 md:px-36 bg-secondary py-3 md:py-8">
+                    <div class="flex justify-between items-center" >
+                      
+                        <img src="./public/images/7646b389-6326-4ac3-9b1c-08276edc401b.svg" alt="logo_mage...." class="hidden md:block w-full">
+                        <div class="md:hidden text-3xl"><i class="fa-solid fa-bars "></i></div>
+                        <img src="./public/images/logo_small.svg" class="h-10  ml-3 md:hidden" alt="">
+                        <img src="./public/images/bars.svg" class="h-8 ml-24 md:hidden" alt="">
                     </div>
                     <div>
-                        <ul class="flex items-center gap-8 text-lg text-black font-bold">
+                        <ul class="hidden md:flex items-center gap-8 text-lg text-black font-bold">
                             <li>STUDY</li>
                             <li>RESEARCH</li>
                             <li>INNOVATE</li>
@@ -66,18 +70,18 @@
                 </div>
             </nav>
         </header>
-        <main class="h-[62vh] w-screen bg-cover bg-no-repeat">
+        <main class="h-[62vh] w-screen bg-cover bg-no-repeat md:static relative">
             <img src="./public/images/programa-de-formacao-multidisplinar-uporto-s.format-jpeg.jpg" alt="banner image" class="w-full h-full object-cover">
-            <div class="px-36 top-2/4 absolute mt-[-5%]">
-                <div class="absolute left-0 bg-brownish h-10 w-10">
+            <div class="md:px-36  md:top-2/4 md:absolute mt-[-5%]">
+                <div class="absolute top-1/2 md:top-0  left-0 bg-brownish h-10 w-10">
                     <img src="./public/images/ChevronLeftLittle.svg" alt="chevron-left" class="invert scale-50">
                 </div>
-                <div class="absolute right-0 bg-brownish 2xl:right-[-8%] h-10 w-10">
+                <div class="absolute top-1/2 md:top-0 right-0 bg-brownish  2xl:right-[-8%] h-10 w-10">
                     <img src="./public/images/331dc1af-e4d6-4ab6-aba8-ba531fd37d6a.svg" alt="chevron-left" class="invert scale-50">
                 </div>
-                <div class="bg-[#404040]/[.9] w-2/5 px-4 py-4 pr-12 space-y-5 text-white">
+                <div class="bg-[#404040]/[.9] absolute md:mt-0 md:static mt-[-22%] z-10 w-screen xl:w-2/5 px-4 py-4 pr-12 space-y-5 text-white">
                     <h2 class="font-bold text-2xl">Let's grow together</h2>
-                    <p class="text-left">
+                    <p class="hidden md:block text-left">
                         The new ambitious Lorem ipsum dolor, sit amet consectetur
             adipisicing elit. Rem dolorem suscipit vero ea labore earum
             praesentium magnam dolore quia quasi.
@@ -87,11 +91,11 @@
                     </button>
                 </div>
             </div>
-            <section class="px-36 pb-20">
+            <section class=" px-4 md:px-36 pb-20">
                 <div class="py-10">
-                    <h2 class="text-5xl text-brownish font-light">Study</h2>
-                    <div class="flex justify-between py-10 flex-wrap">
-                        <h2 class="text-3xl font-semibold basis-[30%]">
+                    <h2 class="text-3xl md:text-5xl text-brownish font-light">Study</h2>
+                    <div class="flex flex-col md:flex-row justify-between py-10 flex-wrap">
+                        <h2 class="text-3xl pb-5 md:pb-0 font-semibold md:basis-[30%]">
                             Your future is here!
                         </h2>
                         <p class="text-xl font-light text-black basis-[60%]">
@@ -107,7 +111,7 @@
                     <h2 class="text-3xl pt-16 pb-6 font-medium">
                         Which course are you looking for?
                     </h2>
-                    <div class="grid grid-cols-3 gap-10">
+                    <div class="grid md:grid-cols-3 gap-10">
                         <div class="col-span-2 space-y-5">
                             <div class="flex items-center justify-between border-2 border-[#111] px-4">
                                 <p>All</p>
@@ -126,9 +130,9 @@
                     </div>
                 </div>
             </section>
-            <section class="bg-secondary py-20 text-black">
-                <div class="px-36">
-                    <div class="flex justify-between items-end">
+            <section class="bg-secondary md:py-20 text-black">
+                <div class="md:px-36 px-4">
+                    <div class="flex flex-col md:flex-row justify-between md:items-end">
                         <h2 class="text-5xl text-brownish font-light">News</h2>
                         <div class="flex items-center text-brownish gap-1 font-medium">
                             <a href="#">All News</a>
@@ -137,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="grid grid-cols-3 gap-10 pt-4">
+                    <div class="grid md:grid-cols-3 gap-10 pt-4">
                         <div class="flex flex-col justify-between  bg-white">
                           <div>
                             <h4 class="text-brownish px-5 pt-3 text-base font-medium">Campus e Communicade</h4>
@@ -145,8 +149,8 @@
                             </div>
                                 <p class="py-2  px-4 text-base">14 May 2024</p>
                                 <img class="self-end" src="./public/images/estudantes-icbas-lab-2024.format-jpeg.jpg" alt="">
-                              </div>
-                              <div class="flex flex-col justify-between  bg-white">
+                          </div>
+                              <div class="hidden md:flex flex-col justify-between  bg-white">
                                 <div>
                                   <h4 class="text-brownish px-5 pt-3 text-base font-medium">Despordo</h4>
                                   <h2 class="pb-24  px-4 py-4 font-bold text-xl">U. Porto vai organizar Europeu Universitario  de Futebol em 2027</h2>
@@ -154,7 +158,7 @@
                                       <p class="py-2  px-4 text-base">14 May 2024</p>
                                       <img class="self-end" src="./public/images/aerea-frente-edificios.jpeg" alt="">
                                     </div>
-                                    <div class="flex flex-col justify-between  bg-white">
+                                    <div class="hidden md:flex flex-col justify-between  bg-white">
                                       <div>
                                         <h4 class="text-brownish px-5 pt-3 text-base font-medium">Campus e Communicade | Lorem, ipsum dolor. </h4>
                                         <h2 class="pb-24  px-4 py-4 font-bold text-xl">Que comece a corrida a  Universidade Junior 2024 !</h2>
@@ -181,7 +185,7 @@
             <section class="px-36">
                 <div class="grid grid-cols-5 gap-5 py-20 pb-32">
                     <div style="background-image: url('./public/images/minerva_01.png');" class="col-span-2 bg-no-repeat bg-contain bg-right h-full">
-                        <h2 class="text-brownish font-light text-6xl pt-4">We are  university of Excellence!</h2>
+                        <h2 class="text-brownish font-light text-6xl pt-4">We are a university of Excellence!</h2>
                     </div>
                     <div class="py-5 font-light col-span-3 text-xl space-y-10">
                         <p>
