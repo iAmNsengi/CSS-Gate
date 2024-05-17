@@ -100,7 +100,7 @@
             class="invert scale-50"
           />
         </div>
-        <div class="absolute right-0 bg-brownish h-10 w-10">
+        <div class="absolute right-0 bg-brownish 2xl:right-[-8%] h-10 w-10">
           <img
             src="./public/images/331dc1af-e4d6-4ab6-aba8-ba531fd37d6a.svg"
             alt="chevron-left"
@@ -137,16 +137,35 @@
           </div>
         </div>
         <div class="h-[1px] w-full bg-black/[.1] rounded-lg"></div>
-        <div class="">
-          <h2 class="text-3xl pt-5 font-medium">
+        <di class="">
+          <h2 class="text-3xl pt-16 pb-6 font-medium">
             Which course are you looking for?
           </h2>
-          <div class="flex">
-            <div>
-              
+          <div class="grid grid-cols-3 gap-12">
+            <div class="col-span-2 space-y-5">
+              <div
+                class="flex items-center justify-between border-2 border-[#111] px-4"
+              >
+                <p>All</p>
+                <img
+                  src="./public/images/SolidChevronDownLittleGray.svg"
+                  class="h-16 "
+                />
+              </div>
+               <div
+                class="flex items-center justify-between border-2 border-[#111] px-4"
+              >
+                <p>All</p>
+                <img
+                  src="./public/images/SolidChevronDownLittleGray.svg"
+                  class="h-16"
+                />
+              </div>
+              <button class="bg-brownish text-white w-full text-2xl font-medium py-3">Search</button>
             </div>
           </div>
         </div>
+        
       </section>
     </main>
   </body>
