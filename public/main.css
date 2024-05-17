@@ -1012,6 +1012,10 @@ video {
   gap: 4rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1205,6 +1209,42 @@ video {
 
 .bg-\[-\%\] {
   background-color: -%;
+}
+
+.bg-\[\.\/public\/images\/minerva_01\.png\] {
+  background-color: ./public/images/minerva 01.png;
+}
+
+.bg-\[u\.\/public\/images\/minerva_01\.png\] {
+  background-color: u./public/images/minerva 01.png;
+}
+
+.bg-\[ur\.\/public\/images\/minerva_01\.png\] {
+  background-color: ur./public/images/minerva 01.png;
+}
+
+.bg-\[url\.\/public\/images\/minerva_01\.png\] {
+  background-color: url./public/images/minerva 01.png;
+}
+
+.bg-\[url\(\)\.\/public\/images\/minerva_01\.png\] {
+  background-image: url()./public/images/minerva 01.png;
+}
+
+.bg-\[url\(\.\/public\/images\/minerva_01\.png\)\] {
+  background-image: url(./public/images/minerva_01.png);
+}
+
+.bg-\[url\(\'\'\.\/public\/images\/minerva_01\.png\)\] {
+  background-image: url(''./public/images/minerva_01.png);
+}
+
+.bg-\[url\(\'\.\/public\/images\/minerva_01\.png\'\)\] {
+  background-image: url('./public/images/minerva_01.png');
+}
+
+.bg-none {
+  background-image: none;
 }
 
 .bg-cover {
@@ -1682,6 +1722,26 @@ video {
   color: 2.rem;
 }
 
+.text-\[2\] {
+  color: 2;
+}
+
+.text-\[2\.\] {
+  color: 2.;
+}
+
+.text-\[2\.5\] {
+  color: 2.5;
+}
+
+.text-\[2\.5r\] {
+  color: 2.5r;
+}
+
+.text-\[2\.5re\] {
+  color: 2.5re;
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1748,6 +1808,14 @@ video {
     top: 0px;
   }
 
+  .md\:right-36 {
+    right: 9rem;
+  }
+
+  .md\:top-5 {
+    top: 1.25rem;
+  }
+
   .md\:mt-\[-20\%\] {
     margin-top: -20%;
   }
@@ -1768,6 +1836,10 @@ video {
     display: none;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:basis-\[30\%\] {
     flex-basis: 30%;
   }
@@ -1776,8 +1848,24 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:items-end {
@@ -1788,8 +1876,28 @@ video {
     justify-content: space-between;
   }
 
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
+  }
+
+  .md\:border {
+    border-width: 1px;
+  }
+
+  .md\:border-none {
+    border-style: none;
+  }
+
   .md\:bg-inherit {
     background-color: inherit;
+  }
+
+  .md\:bg-contain {
+    background-size: contain;
   }
 
   .md\:py-8 {
@@ -1812,12 +1920,49 @@ video {
     padding-bottom: 5rem;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
 
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pt-28 {
+    padding-top: 7rem;
+  }
+
+  .md\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
